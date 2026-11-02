@@ -50,7 +50,7 @@ class PluginLdaptoolsTest extends CommonGLPI
 
     public static function getComment()
     {
-        return __('Performs various tests on all the LDAP directories declared in GLPI.', 'ldaptools');
+        return __('Performs various tests on all the LDAP directories declared in ITSM-NG.', 'ldaptools');
     }
 
     public static function canView()

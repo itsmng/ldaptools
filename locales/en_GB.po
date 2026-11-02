@@ -129,8 +129,8 @@ msgid "No entry found: %s"
 msgstr "No entry found: %s"
 
 #: inc/test.class.php:49
-msgid "Performs various tests on all the LDAP directories declared in GLPI."
-msgstr "Performs various tests on all the LDAP directories declared in GLPI."
+msgid "Performs various tests on all the LDAP directories declared in ITSM-NG."
+msgstr "Performs various tests on all the LDAP directories declared in ITSM-NG."
 
 #. TRANS: %s is the search content
 #: ajax/test.php:236

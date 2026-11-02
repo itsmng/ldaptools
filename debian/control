@@ -1,0 +1,12 @@
+Source: ldaptools
+Section: web
+Priority: standard
+Maintainer: ITSMng SysAdmin <sysadmin@itsm-ng.com>
+Build-Depends:	debhelper (>= 9)
+Rules-Requires-Root: no
+Homepage: https://github.com/itsmng/ldaptools
+
+Package: itsm-ng-plugin-ldaptools
+Architecture: all
+Depends: itsm-ng (>= 1:1.6.18),
+Description: This plugin offers several tools related to LDAP directories declared in ITSM-NG.

@@ -34,7 +34,7 @@ define('PLUGIN_LDAPTOOLS_VERSION', '0.0.3');
 // Minimal GLPI version, inclusive
 define('PLUGIN_LDAPTOOLS_MIN_GLPI', '9.5.0');
 // Maximum GLPI version, exclusive
-define('PLUGIN_LDAPTOOLS_MAX_GLPI', '11.0.0');
+define('PLUGIN_LDAPTOOLS_MAX_GLPI', '10.0.0');
 
 define('PLUGIN_LDAPTOOLS_ROOT', Plugin::getPhpDir('ldaptools'));
 
@@ -79,7 +79,7 @@ function plugin_version_ldaptools()
         'version'        => PLUGIN_LDAPTOOLS_VERSION,
         'author'         => '<a href="https://services.glpi-network.com">teclib\'</a>',
         'license'        => 'GPLv3',
-        'homepage'       => 'https://services.glpi-network.com',
+        'homepage'       => 'https://github.com/itsmng/ldaptools',
         'requirements'   => [
             'glpi' => [
                 'min' => PLUGIN_LDAPTOOLS_MIN_GLPI,
